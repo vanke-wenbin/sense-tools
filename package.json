@@ -1,11 +1,12 @@
 {
   "name": "sense-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node Tools for Application",
   "scripts": {},
   "bin": {
     "sense-tools": "./bin/sense-tools.js",
-    "sense-tools-upload": "./bin/sense-tools-upload.js"
+    "sense-tools-upload": "./bin/sense-tools-upload.js",
+    "sense-tools-mail": "./bin/sense-tools-mail.js"
   },
   "author": "Sense UI Team",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "colorful": "^2.1.0",
     "commander": "^2.12.1",
     "minimist": "^1.2.0",
+    "nodemailer": "^4.4.0",
     "qiniu": "6.1.13",
     "yargs": "^10.0.3"
   }
