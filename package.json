@@ -1,6 +1,6 @@
 {
   "name": "sense-tools",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Node Tools for Application",
   "main": "./config.js",
   "scripts": {},
