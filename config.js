@@ -6,6 +6,8 @@ const BUCKET_DOMAIN = {
 
   'uiis-test': 'p177rvoii.bkt.clouddn.com',
   'fg-test': 'p177h8nuu.bkt.clouddn.com',
+
+  'fg-test-huanan': 'p5wa7vrgp.bkt.clouddn.com',
 };
 
 module.exports.getQiniuDomainByBucketName = function(bucketName) {
