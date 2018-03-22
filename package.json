@@ -1,9 +1,11 @@
 {
   "name": "sense-tools",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Node Tools for Application",
   "main": "./config.js",
-  "scripts": {},
+  "scripts": {
+    "upload": "node ./lib/qiniu/upload --bucket batch-test --target public"
+  },
   "bin": {
     "sense-tools": "./bin/sense-tools.js",
     "sense-tools-upload": "./bin/sense-tools-upload.js",
