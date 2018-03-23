@@ -3,9 +3,7 @@
   "version": "0.0.11",
   "description": "Node Tools for Application",
   "main": "./config.js",
-  "scripts": {
-    "upload": "node ./lib/qiniu/upload --bucket batch-test --target public"
-  },
+  "scripts": {},
   "bin": {
     "sense-tools": "./bin/sense-tools.js",
     "sense-tools-upload": "./bin/sense-tools-upload.js",
